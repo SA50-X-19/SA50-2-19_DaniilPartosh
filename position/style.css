@@ -89,3 +89,35 @@
     float: right;
     vertical-align: bottom;
 }
+
+#news {
+    flex-direction: column;
+    overflow: scroll;
+}
+
+.news_portal_header {
+    display: table;
+    flex-direction: column;
+    height: 5%;
+    width: 100%;
+    background-color: rgb(173, 248, 87);
+    border-bottom: solid;
+    border-color: rgb(111, 208, 0);
+    padding-bottom: 1%;
+    padding-top: 1%;
+    margin-bottom: 2%;
+}
+
+h2 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align:center;
+}
+
+.news_portal_text{
+    display: block;
+    flex-direction: column;
+    position: relative;
+    border: solid;
+    border-color: rgb(173, 248, 87);
+}
