@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.block {
+    display: block;
+    height: 400px;
+    margin: 10%;
+    border: dotted;
+}
+
+.box {
+    display: block;
+    position: relative;
+    height: 60px;
+    width: 60px;
+}
+
+#red_transparent {
+    border: solid;
+    border-color: rgb(255, 93, 93);
+    left: 2%;
+    top: 5%;
+}
+
+#blue_transparent {
+    border: solid;
+    border-color: rgb(103, 57, 255);
+    left: 10%;
+    top: 14%;
+}
+
+#green_transparent {
+    border: solid;
+    border-color: rgb(0, 253, 152);
+    left: 18%;
+    top: 30%;
+}
+
