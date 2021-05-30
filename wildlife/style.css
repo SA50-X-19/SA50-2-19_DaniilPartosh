@@ -108,6 +108,9 @@ h1 {
 .survival {
     display: flex;
     flex-direction: column;
+    width: 274px;
+    height: 340px;
+    justify-content: space-around;
 }
 
 .survival__title {
@@ -135,4 +138,30 @@ h1 {
     font-size: 18px;
     line-height: 27px;
     color: #F7F7F7;
+}
+
+.survival__donate {
+    border-radius: 5px;
+    width: 160px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #CD6326;
+}
+
+.donate__button {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    text-align: center;
+    color: #F7F7F7;
+    text-decoration: none;
+}
+
+.survival__donate:hover {
+    background: #894219;
+    transition: 0.3s;
 }
