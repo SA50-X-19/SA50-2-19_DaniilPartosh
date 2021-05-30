@@ -172,6 +172,7 @@ h1 {
 .donate__button:hover {
     background: #894219;
     transition: 0.3s;
+    color: #dedede;
 }
 
 .articles {
@@ -346,6 +347,74 @@ h1 {
 
 .articles__email {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     height: 640px;
 }
 
+.articles__email > p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 40px;
+    text-align: center;
+    color: #333333;
+}
+
+.articles__email > form > ::-webkit-input-placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #666666;
+}
+
+.articles__email > p {
+    height: 100px;
+}
+
+.articles__email > form {
+    display: flex;
+}
+
+.email {
+    width: 538px;
+    height: 56px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+    background-color: rgba(0, 0, 0, 0);
+    border-right: none;
+}
+
+.send {
+    width: 120px;
+    height: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    text-align: center;
+    color: #F7F7F7;
+    background: #CD6326;
+    border: 1px solid #CD6326;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.send:hover {
+    background: #894219;
+    border-color: #894219;
+    color: #dedede;
+    transition: 0.3s;
+}
