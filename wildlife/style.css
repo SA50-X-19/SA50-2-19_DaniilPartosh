@@ -219,9 +219,129 @@ h1 {
     height: 46px;
 }
 
-.articles__list {
+.articles__slider {
     display: flex;
+    justify-content: space-around;
     height: 360px;
+    align-items: center;
+}
+
+.picture__1 {
+    display: flex;
+    position: relative;
+}
+
+.picture__2 {
+    display: flex;
+    position: relative;
+}
+
+.picture__3 {
+    display: flex;
+    position: relative;
+}
+
+.picture__1 > a > h2 {
+    position: absolute;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    text-align: center;
+    color: #F7F7F7;
+    left: 124px;
+    top: 247px;
+}
+
+.picture__1 > a > h3 {
+    position: absolute;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 27px;
+    text-align: center;
+    color: #F7F7F7;
+    left: 57px;
+    top: 293px;
+}
+
+.picture__2 > a > h2 {
+    position: absolute;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    text-align: center;
+    color: #F7F7F7;
+    left: 109px;
+    top: 247px;
+}
+
+.picture__2 > a > h3 {
+    position: absolute;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 27px;
+    text-align: center;
+    color: #F7F7F7;
+    left: 74px;
+    top: 293px;
+}
+
+.picture__3 > a > h2 {
+    position: absolute;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    text-align: center;
+    color: #F7F7F7;
+    left: 129px;
+    top: 247px;
+}
+
+.picture__3 > a > h3 {
+    position: absolute;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 27px;
+    text-align: center;
+    color: #F7F7F7;
+    left: 88px;
+    top: 293px;
+}
+
+.arrow__left:hover {
+    transform: rotate(360deg);
+    transition: transform 1s;
+}
+
+.arrow__right:hover {
+    transform: rotate(360deg);
+    transition: transform 1s;
+}
+
+.picture__1:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.picture__2:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.picture__3:hover {
+    transform: scale(1.1);
+    transition: 1s;
 }
 
 .articles__email {
