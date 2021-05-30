@@ -140,16 +140,6 @@ h1 {
     color: #F7F7F7;
 }
 
-.survival__donate {
-    border-radius: 5px;
-    width: 160px;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #CD6326;
-}
-
 .donate__button {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -159,9 +149,16 @@ h1 {
     text-align: center;
     color: #F7F7F7;
     text-decoration: none;
+    border-radius: 5px;
+    width: 160px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #CD6326;
 }
 
-.survival__donate:hover {
+.donate__button:hover {
     background: #894219;
     transition: 0.3s;
 }
