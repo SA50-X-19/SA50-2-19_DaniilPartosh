@@ -420,5 +420,13 @@ h1 {
 }
 
 .footer__background {
-    
+    display: flex;
+    justify-content: center;
+    background-image: url(./asserts/footer.jpg);
+    width: 1440px;
+    height: 360px;
+}
+
+footer {
+
 }
