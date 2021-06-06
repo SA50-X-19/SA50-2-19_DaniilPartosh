@@ -418,3 +418,67 @@ h1 {
     color: #dedede;
     transition: 0.3s;
 }
+
+.footer__background {
+    display: flex;
+    background-image: url(./asserts/footer.jpg);
+    width: 1440px;
+    height: 360px;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    width: 1200px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer > ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.footer__list__logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 240px;
+}
+
+.footer__list__logo_text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #F7F7F7;
+    text-decoration: none;
+}
+
+footer > ul > li > a {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 60px;
+    color: #F7F7F7;
+    text-decoration: none;
+}
+
+.footer_nav {
+    text-decoration: none;
+}
+
+.footer__list__media {
+    display: flex;
+    justify-content: space-between;
+    width: 240px;
+}
+
+footer > ul > li > a:hover {
+    color: #f7f7f7de;
+}
